@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    font: italic bolder 1.5em 'Work sans' , sans-serif;
+}
+
+/*declaração p/ tags com os mesmos estilos css -- Observe a declaração abaixo*/
+h1, h2 { /*Ou seja, o h1 e o h2 receberão os mesmos estilos*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

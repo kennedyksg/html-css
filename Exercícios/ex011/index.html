@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>
+        Abrir esse site em outros dispositivos para visualizar a mudança das Imagens ou altere a largura do site.
+    </p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="Imagem Flexível">
+    </picture>
+    <h1>Áudios</h1>
+    <p>
+        Utilizar a tag &lt;audio&gt; e a tag &lt;source&gt; (Para adicionar mais tipos de arquivos p/ o mesmo áudio, caso um não funcione).
+    </p>
+    <h2>Tipo mais básico</h2>
+    <audio src="audio/palmeiras.mp3" controls></audio>
+    <h2>Utilizando mais de um tipo de arquivo</h2>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="audio/hip-hop-mp3.mp3" type="audio/mpeg">
+        <source src="audio/hip-hop-mp3.ogg" type="audio/ogg"><!--caso tivesse esse arquivo no pc-->
+        <source src="audio/hip-hop-mp3.wav" type="audio/wav"><!--caso tivesse esse arquivo no pc-->
+        <p>
+            Seu navegador não suporta o áudio
+        </p>
+    </audio>
+    <h1>Vídeos</h1>
+    
+</body>
+</html>

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+* { /* Configurações Globais das Css*/
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient( to left, #FF2E2E 10%, #ACB7E8, #FF2ECE ); 
+    background-attachment: fixed; /*deixar o fundo do degradê fixo*/
+}
